@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "751584864910",
+    "project_id": "immune-keeper2",
+    "storage_bucket": "immune-keeper2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751584864910:android:1f1c5e78ea8a3f2eccb7df",
+        "android_client_info": {
+          "package_name": "com.example.immune_keeper2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe6oQ-ywiD8bbmiahSFnA3fyZt5vAerAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

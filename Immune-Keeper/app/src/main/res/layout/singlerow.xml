@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    android:elevation="4dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/cus_shapes_2"
+        >
+
+        <TextView
+            android:id="@+id/displayname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/lemon"
+            android:text="Name"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/displaymobile"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/lemon"
+            android:text="Mobile"
+            android:textSize="21sp" />
+
+        <ImageButton
+            android:id="@+id/delbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.809"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.305"
+            app:srcCompat="@drawable/del" />
+
+        <ImageButton
+            android:id="@+id/repbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.886"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.395"
+            app:srcCompat="@drawable/report" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
